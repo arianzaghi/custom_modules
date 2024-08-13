@@ -1,0 +1,195 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* purchase_picking_invoicer_pnt
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 14.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-08-12 09:35+0000\n"
+"PO-Revision-Date: 2024-08-12 11:35+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.4.3\n"
+
+#. module: purchase_picking_invoicer_pnt
+#: model:ir.model.fields,field_description:purchase_picking_invoicer_pnt.field_pnt_stock_picking_supplier__pnt_all_invoiced
+msgid "All Invoiced"
+msgstr "Todos facturados"
+
+#. module: purchase_picking_invoicer_pnt
+#: code:addons/purchase_picking_invoicer_pnt/models/account_move.py:0
+#, python-format
+msgid ""
+"Before deleting an invoice, remove any linked supplier ids: \n"
+" %s"
+msgstr ""
+"Antes de eliminar una factura, elimina los supplier id relacionados: \n"
+" %s"
+
+#. module: purchase_picking_invoicer_pnt
+#: model:ir.model.fields,field_description:purchase_picking_invoicer_pnt.field_pnt_stock_picking_supplier__company_id
+msgid "Company"
+msgstr "Compañía"
+
+#. module: purchase_picking_invoicer_pnt
+#: model:ir.model.fields,field_description:purchase_picking_invoicer_pnt.field_pnt_stock_picking_supplier__create_uid
+msgid "Created by"
+msgstr "Creado por"
+
+#. module: purchase_picking_invoicer_pnt
+#: model:ir.model.fields,field_description:purchase_picking_invoicer_pnt.field_pnt_stock_picking_supplier__create_date
+msgid "Created on"
+msgstr "Creado el"
+
+#. module: purchase_picking_invoicer_pnt
+#: model:ir.model.fields,field_description:purchase_picking_invoicer_pnt.field_account_move__display_name
+#: model:ir.model.fields,field_description:purchase_picking_invoicer_pnt.field_account_move_line__display_name
+#: model:ir.model.fields,field_description:purchase_picking_invoicer_pnt.field_pnt_stock_picking_supplier__display_name
+#: model:ir.model.fields,field_description:purchase_picking_invoicer_pnt.field_stock_picking__display_name
+#: model:ir.model.fields,field_description:purchase_picking_invoicer_pnt.field_stock_picking_type__display_name
+msgid "Display Name"
+msgstr "Nombre mostrado"
+
+#. module: purchase_picking_invoicer_pnt
+#: model:ir.model.fields,field_description:purchase_picking_invoicer_pnt.field_stock_picking__pnt_enable_picking_invoice
+#: model:ir.model.fields,field_description:purchase_picking_invoicer_pnt.field_stock_picking_type__pnt_enable_picking_invoice
+msgid "Enable Picking Invoice"
+msgstr "Activar Facturación Albaranes Compra"
+
+#. module: purchase_picking_invoicer_pnt
+#: model:ir.model.fields,field_description:purchase_picking_invoicer_pnt.field_pnt_stock_picking_supplier__pnt_account_move_history_id
+msgid "History of Account Move"
+msgstr "Historial de account move"
+
+#. module: purchase_picking_invoicer_pnt
+#: model:ir.model.fields,field_description:purchase_picking_invoicer_pnt.field_account_move__id
+#: model:ir.model.fields,field_description:purchase_picking_invoicer_pnt.field_account_move_line__id
+#: model:ir.model.fields,field_description:purchase_picking_invoicer_pnt.field_pnt_stock_picking_supplier__id
+#: model:ir.model.fields,field_description:purchase_picking_invoicer_pnt.field_stock_picking__id
+#: model:ir.model.fields,field_description:purchase_picking_invoicer_pnt.field_stock_picking_type__id
+msgid "ID"
+msgstr "ID (identificación)"
+
+#. module: purchase_picking_invoicer_pnt
+#: model:ir.model.fields,field_description:purchase_picking_invoicer_pnt.field_stock_picking_type__enable_returns_in_invoice
+msgid "Include returns in invoices"
+msgstr "Incluir devoluciones en facturas"
+
+#. module: purchase_picking_invoicer_pnt
+#: model:ir.model,name:purchase_picking_invoicer_pnt.model_account_move
+msgid "Journal Entry"
+msgstr "Asiento contable"
+
+#. module: purchase_picking_invoicer_pnt
+#: model:ir.model,name:purchase_picking_invoicer_pnt.model_account_move_line
+msgid "Journal Item"
+msgstr "Apunte contable"
+
+#. module: purchase_picking_invoicer_pnt
+#: model:ir.model.fields,field_description:purchase_picking_invoicer_pnt.field_account_move____last_update
+#: model:ir.model.fields,field_description:purchase_picking_invoicer_pnt.field_account_move_line____last_update
+#: model:ir.model.fields,field_description:purchase_picking_invoicer_pnt.field_pnt_stock_picking_supplier____last_update
+#: model:ir.model.fields,field_description:purchase_picking_invoicer_pnt.field_stock_picking____last_update
+#: model:ir.model.fields,field_description:purchase_picking_invoicer_pnt.field_stock_picking_type____last_update
+msgid "Last Modified on"
+msgstr "Última modificación el"
+
+#. module: purchase_picking_invoicer_pnt
+#: model:ir.model.fields,field_description:purchase_picking_invoicer_pnt.field_pnt_stock_picking_supplier__write_uid
+msgid "Last Updated by"
+msgstr "Última actualización por"
+
+#. module: purchase_picking_invoicer_pnt
+#: model:ir.model.fields,field_description:purchase_picking_invoicer_pnt.field_pnt_stock_picking_supplier__write_date
+msgid "Last Updated on"
+msgstr "Last Updated by"
+
+#. module: purchase_picking_invoicer_pnt
+#: model:ir.model.fields,field_description:purchase_picking_invoicer_pnt.field_pnt_stock_picking_supplier__pnt_account_move_loaded_id
+msgid "Loaded in Account Move"
+msgstr "Cargado en factura"
+
+#. module: purchase_picking_invoicer_pnt
+#: model:ir.model.fields,field_description:purchase_picking_invoicer_pnt.field_account_move_line__pnt_picking_supplier_id
+msgid "Picking Supplier"
+msgstr "Proveedor de albarán"
+
+#. module: purchase_picking_invoicer_pnt
+#: model:ir.model.fields,field_description:purchase_picking_invoicer_pnt.field_account_bank_statement_line__pnt_picking_supplier_id
+#: model:ir.model.fields,field_description:purchase_picking_invoicer_pnt.field_account_move__pnt_picking_supplier_id
+#: model:ir.model.fields,field_description:purchase_picking_invoicer_pnt.field_account_payment__pnt_picking_supplier_id
+#: model:ir.model.fields,field_description:purchase_picking_invoicer_pnt.field_stock_picking__pnt_stock_picking_supplier_id
+msgid "Picking Supplier Code"
+msgstr "Codigo proveedor"
+
+#. module: purchase_picking_invoicer_pnt
+#: model:ir.model,name:purchase_picking_invoicer_pnt.model_stock_picking_type
+msgid "Picking Type"
+msgstr "Tipo de albarán"
+
+#. module: purchase_picking_invoicer_pnt
+#: model:ir.model.fields,field_description:purchase_picking_invoicer_pnt.field_stock_picking__pnt_is_invoiced
+msgid "Picking invoiced"
+msgstr "Albarán facturado"
+
+#. module: purchase_picking_invoicer_pnt
+#: model:ir.model.fields,field_description:purchase_picking_invoicer_pnt.field_pnt_stock_picking_supplier__pnt_picking_ids
+msgid "Pickings"
+msgstr "Albaranes"
+
+#. module: purchase_picking_invoicer_pnt
+#: model:ir.model.fields,field_description:purchase_picking_invoicer_pnt.field_account_bank_statement_line__pnt_loaded_supplier_ids
+#: model:ir.model.fields,field_description:purchase_picking_invoicer_pnt.field_account_move__pnt_loaded_supplier_ids
+#: model:ir.model.fields,field_description:purchase_picking_invoicer_pnt.field_account_payment__pnt_loaded_supplier_ids
+msgid "Processed Supplier ids"
+msgstr "Codigos de albarán procesados"
+
+#. module: purchase_picking_invoicer_pnt
+#: model:ir.model.fields,field_description:purchase_picking_invoicer_pnt.field_account_bank_statement_line__pnt_history_supplier_ids
+#: model:ir.model.fields,field_description:purchase_picking_invoicer_pnt.field_account_move__pnt_history_supplier_ids
+#: model:ir.model.fields,field_description:purchase_picking_invoicer_pnt.field_account_payment__pnt_history_supplier_ids
+msgid "Processed Supplier ids History"
+msgstr "Historial Codigos de albarán procesados"
+
+#. module: purchase_picking_invoicer_pnt
+#: model:ir.model,name:purchase_picking_invoicer_pnt.model_pnt_stock_picking_supplier
+msgid "Stock Picking Supplier"
+msgstr "Proveedor de albarán"
+
+#. module: purchase_picking_invoicer_pnt
+#: model:ir.model.fields,field_description:purchase_picking_invoicer_pnt.field_account_move_line__pnt_stock_picking_ids
+#: model:ir.model.fields,field_description:purchase_picking_invoicer_pnt.field_account_move_line__pnt_stock_supplier_ids
+msgid "Stock Pickings"
+msgstr "Albaranes"
+
+#. module: purchase_picking_invoicer_pnt
+#: model:ir.model.fields,field_description:purchase_picking_invoicer_pnt.field_pnt_stock_picking_supplier__pnt_supplier_id
+msgid "Supplier"
+msgstr "Proveedor"
+
+#. module: purchase_picking_invoicer_pnt
+#: model:ir.model.fields,field_description:purchase_picking_invoicer_pnt.field_pnt_stock_picking_supplier__pnt_name
+msgid "Supplier Picking Number"
+msgstr "Código del albarán proveedor"
+
+#. module: purchase_picking_invoicer_pnt
+#: model:ir.model.constraint,message:purchase_picking_invoicer_pnt.constraint_pnt_stock_picking_supplier_pnt_name_uniq
+msgid "Supplier Picking name must be unique."
+msgstr "El código de proveedor debe de ser único."
+
+#. module: purchase_picking_invoicer_pnt
+#: code:addons/purchase_picking_invoicer_pnt/models/stock_picking.py:0
+#, python-format
+msgid "This picking supplier id has already been used"
+msgstr "Este código de albarán ya ha sido utilizado"
+
+#. module: purchase_picking_invoicer_pnt
+#: model:ir.model,name:purchase_picking_invoicer_pnt.model_stock_picking
+msgid "Transfer"
+msgstr "Transferir"

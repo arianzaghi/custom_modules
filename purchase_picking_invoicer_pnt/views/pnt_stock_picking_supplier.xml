@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="pnt_stock_picking_supplier_view_form" model="ir.ui.view">
+        <field name="name">pnt.stock.picking.supplier.view.form</field>
+        <field name="model">pnt.stock.picking.supplier</field>
+        <field name="type">form</field>
+        <field name="arch" type="xml">
+            <form>
+                <group>
+                    <field name="company_id" invisible="1"/>
+                    <field name="pnt_name"/>
+                    <field name="pnt_supplier_id"/>
+                </group>
+            </form>
+        </field>
+    </record>
+</odoo>

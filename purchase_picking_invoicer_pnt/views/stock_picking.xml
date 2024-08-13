@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="view_picking_form" model="ir.ui.view">
+        <field name="model">stock.picking</field>
+        <field name="inherit_id" ref="stock.view_picking_form"/>
+        <field name="arch" type="xml">
+            <xpath expr="//field[@name='owner_id']" position="after">
+                <field name="pnt_enable_picking_invoice" invisible="1"/>
+                <field name="pnt_stock_picking_supplier_id"
+                       domain="[('pnt_supplier_id', '=', partner_id)]"
+                       context="{'default_pnt_supplier_id': partner_id}"
+                       attrs="{'invisible':[('pnt_enable_picking_invoice', '!=', True)]}"
+                />
+            </xpath>
+        </field>
+    </record>
+</odoo>
