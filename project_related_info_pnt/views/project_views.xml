@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <record id="pnt_project_project_form" model="ir.ui.view">
+        <field name="model">project.project</field>
+        <field name="inherit_id" ref="project.edit_project"/>
+        <field name="arch" type="xml">
+            <div name="button_box" position="inside">
+
+                <!--SALE ORDERS -->
+                <button class="oe_inline oe_stat_button"
+                        type="object"
+                        name="pnt_open_sale_order_ids"
+                        icon="fa-tasks">
+                    <field string="Sale Orders" name="pnt_sale_order_count"
+                           widget="statinfo"/>
+                </button>
+
+                <!--SALE INVOICES-->
+                <button class="oe_inline oe_stat_button"
+                        type="object"
+                        name="pnt_open_sale_invoice_ids"
+                        icon="fa-tasks">
+                    <field string="Sale Invoices" name="pnt_sale_invoice_count"
+                           widget="statinfo"/>
+                </button>
+
+                <!-- PURCHASE ORDERS -->
+                <button class="oe_inline oe_stat_button"
+                        type="object"
+                        name="pnt_open_purchase_order_ids"
+                        icon="fa-tasks">
+                    <field string="Purchase Orders" name="pnt_purchase_order_count"
+                           widget="statinfo"/>
+                </button>
+
+                <!-- PURCHASE INVOICES -->
+                <button class="oe_inline oe_stat_button"
+                        type="object"
+                        name="pnt_open_purchase_invoice_ids"
+                        icon="fa-tasks">
+                    <field string="Purchase Invoices" name="pnt_purchase_invoice_count"
+                           widget="statinfo"/>
+                </button>
+
+                <!-- OUTGOING PICKINGS -->
+                <button class="oe_inline oe_stat_button"
+                        type="object"
+                        name="pnt_open_outgoing_picking_ids"
+                        icon="fa-truck">
+                    <field string="Outgoing Pickings" name="pnt_outgoing_picking_count"
+                           widget="statinfo"/>
+                </button>
+
+                <!-- INCOMING PICKINGS -->
+                <button class="oe_inline oe_stat_button"
+                        type="object"
+                        name="pnt_open_incoming_picking_ids"
+                        icon="fa-truck">
+                    <field string="Incoming Pickings" name="pnt_incoming_picking_count"
+                           widget="statinfo"/>
+                </button>
+
+<!--                 PRODUCTION ORDERS-->
+                <button class="oe_inline oe_stat_button"
+                        type="object"
+                        name="pnt_open_production_order_ids"
+                        icon="fa-cogs">
+                    <field string="Production Orders" name="pnt_production_order_count"
+                           widget="statinfo"/>
+                </button>
+            </div>
+        </field>
+    </record>
+</odoo>

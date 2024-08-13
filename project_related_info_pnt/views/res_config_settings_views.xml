@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <!-- Inherit the base settings view form -->
+        <record id="res_config_settings_view_form_redirect_app" model="ir.ui.view">
+            <field name="name">res.config.settings.view.redirect.app</field>
+            <field name="model">res.config.settings</field>
+            <field name="priority" eval="40"/>
+            <field name="inherit_id" ref="base.res_config_settings_view_form"/>
+            <field name="arch" type="xml">
+                <xpath expr="//form" position="inside">
+                    <div class="app_settings_block" data-string="Project Info App" id="project_related_info_pnt" string="Project Info App" data-key="project_related_info_pnt" groups="base.group_system">
+                        <h2>Project Related Info Settings</h2>
+                        <div class="row mt16 o_settings_container" id="redirect_app_settings">
+                            <div class="col-12 col-lg-6 o_settings_box">
+                                <h2>Show buttons list</h2>
+                                <div class="o_settings_right_pane">
+                                    <group>
+                                        <field name="show_sale_orders"/>
+                                        <field name="show_sale_invoices"/>
+                                        <field name="show_purchase_orders"/>
+                                        <field name="show_purchase_invoices"/>
+                                        <field name="show_outgoing_pickings"/>
+                                        <field name="show_incoming_pickings"/>
+                                        <field name="show_production_orders"/>
+                                    </group>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </xpath>
+            </field>
+        </record>
+
+        <!-- Action for the settings -->
+        <record id="pnt_project_related_info_action" model="ir.actions.act_window">
+            <field name="name">Project Related Info Settings</field>
+            <field name="res_model">res.config.settings</field>
+            <field name="view_mode">form</field>
+            <field name="target">current</field>
+            <field name="context">{'module': 'project_related_info_pnt', 'bin_size': False}</field>
+        </record>
+
+<!--        &lt;!&ndash; Menu item for the settings &ndash;&gt;-->
+<!--        <menuitem id="pnt_project_related_info_settings"-->
+<!--                  name="Project Info Settings"-->
+<!--                  parent="project.menu_main_pm"-->
+<!--                  sequence="4"-->
+<!--                  action="pnt_project_related_info_action"-->
+<!--                  groups="base.group_system"/>-->
+    </data>
+</odoo>
