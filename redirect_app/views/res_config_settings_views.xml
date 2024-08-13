@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <record id="res_config_settings_view_form" model="ir.ui.view">
+            <field name="name">res.config.settings.view.redirect.app</field>
+            <field name="model">res.config.settings</field>
+            <field name="priority" eval="40"/>
+            <field name="inherit_id" ref="base.res_config_settings_view_form"/>
+            <field name="arch" type="xml">
+                <xpath expr="//div[hasclass('settings')]" position="inside">
+                    <div class="app_settings_block" data-string="Redirect App" id="redirect_app" string="Redirect App"
+                         data-key="redirect_app" groups="base.group_system">
+                        <h2>Redirect App Settings</h2>
+                        <div class="row mt16 o_settings_container" id="redirect_app_settings">
+                            <div class="col-12 col-lg-6 o_settings_box">
+                                <div class="o_settings_right_pane">
+                                    <span class="o_form_label">Redirect URL</span>
+                                    <div class="text-muted content-group mt16">
+                                        <field name="pnt_redirect_url" class="text-start oe_inline">
+                                            <span>Redirect URL</span>
+                                        </field>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </xpath>
+            </field>
+        </record>
+
+        <record id="pnt_redirect_app_settings_action" model="ir.actions.act_window">
+            <field name="name">Redirect app settings</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="res_model">res.config.settings</field>
+            <field name="view_mode">form</field>
+            <field name="target">inline</field>
+            <field name="context">{'module' : 'redirect_app', 'bin_size': False}</field>
+        </record>
+
+        <menuitem id="pnt_redirect_app_settings"
+                  name="Redirect App Settings"
+                  parent="redirect_app.menu_redirect_app"
+                  sequence="0"
+                  action="pnt_redirect_app_settings_action"
+                  groups="base.group_system"/>
+    </data>
+</odoo>

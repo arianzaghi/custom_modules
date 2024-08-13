@@ -1,0 +1,2 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_pnt_redirect_app,Access pnt.redirect.app,model_pnt_redirect_app,custom_pnt.pnt_external_admon_sek_group,1,1,1,1

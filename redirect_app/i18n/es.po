@@ -1,0 +1,111 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* redirect_app
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 16.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-07-17 06:16+0000\n"
+"PO-Revision-Date: 2024-07-17 08:22+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.4.3\n"
+
+#. module: redirect_app
+#: model_terms:ir.ui.view,arch_db:redirect_app.res_config_settings_view_form
+msgid "<span class=\"o_form_label\">Redirect URL</span>"
+msgstr "<span class=\"o_form_label\">URL Redirección</span>"
+
+#. module: redirect_app
+#: model_terms:ir.ui.view,arch_db:redirect_app.res_config_settings_view_form
+msgid "<span>Redirect URL</span>"
+msgstr "<span>URL Redirección</span>"
+
+#. module: redirect_app
+#: model:ir.ui.menu,name:redirect_app.menu_redirect_app
+msgid "Admon SEK"
+msgstr "Admon SEK"
+
+#. module: redirect_app
+#: model:ir.model,name:redirect_app.model_pnt_redirect_app
+msgid "App module that redirects to a custom link."
+msgstr "App que permite redirijir a un link personalizado."
+
+#. module: redirect_app
+#: model:ir.model,name:redirect_app.model_res_config_settings
+msgid "Config Settings"
+msgstr "Ajustes y configuración"
+
+#. module: redirect_app
+#: model:ir.model.fields,field_description:redirect_app.field_pnt_redirect_app__create_uid
+msgid "Created by"
+msgstr "Creado por"
+
+#. module: redirect_app
+#: model:ir.model.fields,field_description:redirect_app.field_pnt_redirect_app__create_date
+msgid "Created on"
+msgstr "Creado el"
+
+#. module: redirect_app
+#: model:ir.model.fields,field_description:redirect_app.field_pnt_redirect_app__display_name
+msgid "Display Name"
+msgstr "Nombre"
+
+#. module: redirect_app
+#: model:ir.model.fields,field_description:redirect_app.field_pnt_redirect_app__id
+#, fuzzy
+msgid "ID"
+msgstr "ID"
+
+#. module: redirect_app
+#: model:ir.model.fields,field_description:redirect_app.field_pnt_redirect_app____last_update
+msgid "Last Modified on"
+msgstr ""
+
+#. module: redirect_app
+#: model:ir.model.fields,field_description:redirect_app.field_pnt_redirect_app__write_uid
+#, fuzzy
+msgid "Last Updated by"
+msgstr "Última actualización por"
+
+#. module: redirect_app
+#: model:ir.model.fields,field_description:redirect_app.field_pnt_redirect_app__write_date
+msgid "Last Updated on"
+msgstr "Last Updated by"
+
+#. module: redirect_app
+#: model_terms:ir.ui.view,arch_db:redirect_app.res_config_settings_view_form
+msgid "Redirect App"
+msgstr "External Admon SEK"
+
+#. module: redirect_app
+#: model:ir.ui.menu,name:redirect_app.pnt_redirect_app_settings
+#: model_terms:ir.ui.view,arch_db:redirect_app.res_config_settings_view_form
+msgid "Redirect App Settings"
+msgstr "Ajustes External Admon SEK"
+
+#. module: redirect_app
+#: model:ir.model.fields,field_description:redirect_app.field_res_config_settings__pnt_redirect_url
+msgid "Redirect URL"
+msgstr "URL Redirección"
+
+#. module: redirect_app
+#: model:ir.actions.act_window,name:redirect_app.pnt_redirect_app_settings_action
+msgid "Redirect app settings"
+msgstr "Ajustes External Admon SEK"
+
+#. module: redirect_app
+#: model:ir.actions.server,name:redirect_app.action_redirect_website
+msgid "Redirect to Website"
+msgstr "Redirigir a web"
+
+#. module: redirect_app
+#: model:ir.model.fields,field_description:redirect_app.field_pnt_redirect_app__pnt_redirect_url
+msgid "URL"
+msgstr "URL"
